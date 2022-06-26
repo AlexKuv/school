@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #0f141e;
+    background-color: #f1f1f1;
+}
+
+.container {
+    max-width: 1480px;
+    margin: auto;
+}
+
+.avatar {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    margin-right: 50px;
+}
+
+.card {
+    border-radius: 50px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.about-me {
+    background-color: rgba(15, 202, 202, 0.247);
+}
+
+.about-me h1 {
+    margin: 0 0 15px 0;
+}
+
+.about-me__wrap {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.hobbie {
+    background-color: rgb(52, 214, 66);
+}
+
+.experience {
+    background-color: rgba(134, 40, 40, 0.24);
+}
+
+.hobbie li {
+    font-style: italic;
+}
+
+.skils {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    position: relative;
+}
+
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list li {
+    margin-bottom: 10px;
+}
+
+.list li:last-child {
+    margin-bottom: 0;
+}
+
+
+.link {
+    text-decoration: none;
+    color: #241f1f;
+    transition: all .3s;
+}
+.link:hover,
+.link:active {
+    color: rgb(255, 14, 14);
+}
+
+
+.btn {
+    border: none;
+    background-color: #241f1f;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+    transition: opacity ease .3s;
+}
+.btn:hover {
+    opacity: .4;
+}
+
+.contact-me__title {
+    text-align: center;
+}
+
+.contact-me__form {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+
+.contact-me__form-field {
+    width: 49%;
+    display: inline-block;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e0dfe0;
+}
+
+.contact-me__form-field label {
+    color: #989c9e;
+    display: block;
+    margin-bottom: 10px;
+}
+.contact-me__form-field input,
+.contact-me__form-field textarea {
+    border: none;
+    background-color: transparent;
+    padding: 5px 0;
+}
+
+.contact-me__form-field--textarea {
+    width: 100%;
+    border-bottom: 1px solid #e0dfe0;
+}
+.contact-me__form-field textarea {
+    width: 100%;
+}
+
+@media (max-width: 650px) {
+    .about-me {
+        text-align: center;
+    }
+    .avatar {
+        margin-right: 0;
+    }
+}
